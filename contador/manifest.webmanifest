@@ -4,12 +4,12 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "virus-64.png",
+            "src": "icons/virus-64.png",
             "sizes": "64x64",
             "type": "image/png"
         }
     ],
     "name": "Contador",
     "short_name": "Contador",
-    "start_url": "/benitocabral.github.io/contador/manifest.webmanifest"
+    "start_url": "index.html"
 }
