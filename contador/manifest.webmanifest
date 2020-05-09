@@ -1,0 +1,13 @@
+{
+    "background_color" : "green",
+    "description" : "Contador de itens com limite max",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "icons/petri-dish.svg"
+        }
+    ],
+    "name" : "Contador",
+    "short_name" : "Contador",
+    "start_url" : "/contador/index.html"
+}
