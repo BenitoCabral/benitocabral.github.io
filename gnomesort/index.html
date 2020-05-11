@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>exemplo gnomesort</title>
-        <script src="scripts/main.js" defer></script>
-        <style>table,td,th{border: solid; border-width: 1px;}</style>
-    </head>
-    <body onload="imprime()">
-        <table>
-            <thead><tr>
+
+<head>
+    <meta charset="utf-8">
+    <title>exemplo gnomesort</title>
+    <script src="scripts/main.js" defer></script>
+    <style>
+        table {
+            width: 40%;
+        }
+        td,
+        th {
+            border: solid;
+            border-width: 1px;
+        }
+    </style>
+</head>
+
+<body onload="imprime()">
+    <br>
+    <table>
+        <caption>Ordenar tabela com gnomesort</caption>
+        <thead>
+            <tr>
                 <th onclick="gnomesort(0)">Nome</th>
                 <th onclick="gnomesort(1)">Vendas</th>
                 <th onclick="gnomesort(2)">Código</th>
-            </tr></thead>
-            <tbody id="tabela"></tbody>
-        </table>
-    </body>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+</body>
+
 </html>
