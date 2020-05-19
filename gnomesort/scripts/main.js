@@ -1,4 +1,4 @@
-let arrTabela = [["Felipe", 30, 3], ["Daniela", 50, 1], ["Marcelo", 40, 2], ["Ana", 25, 4], ["Flávio", 20, 6], ["Júlia", 35, 5]];
+let arrTabela = [["01","Felipe", 30 ], ["04","Daniela", 50], ["02","Marcelo", 40], ["06","Ana", 25], ["05","Flávio", 20], ["03","Júlia", 35]];
 
 function imprime() {
     let tabela = document.getElementById("tabela");
