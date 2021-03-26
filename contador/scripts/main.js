@@ -13,5 +13,8 @@ function addUP(id) {
 
         itemid.innerHTML = itemvalue;
         totalid.innerHTML = totalvalue;
+    } else {
+        alert("Limite de 100");
     }
+
 }
